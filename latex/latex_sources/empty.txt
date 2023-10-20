@@ -1,0 +1,1 @@
+Structural init for latex_sources dir

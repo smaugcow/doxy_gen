@@ -1,0 +1,1 @@
+Structural init for output_pretty_doxygen dir
