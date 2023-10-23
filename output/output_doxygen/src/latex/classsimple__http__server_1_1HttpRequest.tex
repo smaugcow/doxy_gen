@@ -1,0 +1,295 @@
+\hypertarget{classsimple__http__server_1_1HttpRequest}{}\doxysection{Класс simple\+\_\+http\+\_\+server\+::Http\+Request}
+\label{classsimple__http__server_1_1HttpRequest}\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classsimple__http__server_1_1HttpRequest_a36234a15fb5eb54f60960e192655a2c7}{Http\+Request}} ()
+\item 
+\mbox{\hyperlink{classsimple__http__server_1_1HttpRequest_ae5cd9170776570901554231f2598dcab}{$\sim$\+Http\+Request}} ()=default
+\item 
+void \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_ac8f8f7f9b3a0920a73c86bd65d9a17ff}{Clear\+Content}} (const std\+::string \&\mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_ae7ed3cdd2737c8878474aa11cdc7e8da}{content}})
+\item 
+void \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_a9a0737e0080962c2878f8d648d2d6733}{Clear\+Header}} ()
+\item 
+std\+::string \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_ae7ed3cdd2737c8878474aa11cdc7e8da}{content}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_ad5f2522670039a338bb76dfde0e51514}{content\+\_\+length}} () const
+\item 
+std\+::string \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_a0d455f4d7b1d7df7a062d7380bd7edc0}{header}} (const std\+::string \&key) const
+\item 
+std\+::map$<$ std\+::string, std\+::string $>$ \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_afdeaa2dec013f57be43182c91926881f}{headers}} () const
+\item 
+\mbox{\hyperlink{namespacesimple__http__server_adfe0e347afbcbc672724da60b0b1aedf}{Http\+Method}} \mbox{\hyperlink{classsimple__http__server_1_1HttpRequest_a82b40db7c51c8f11882594d89ba815ee}{method}} () const
+\item 
+void \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_a8f48a3b3b493f9ce5ffeb0c135345287}{Remove\+Header}} (const std\+::string \&key)
+\item 
+void \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_a82772bba7d66f15cfdd8f909105e5e5d}{Set\+Content}} (const std\+::string \&\mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_ae7ed3cdd2737c8878474aa11cdc7e8da}{content}})
+\item 
+void \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_adb150443a03735d2d0819bacb92cb606}{Set\+Header}} (const std\+::string \&key, const std\+::string \&value)
+\item 
+void \mbox{\hyperlink{classsimple__http__server_1_1HttpRequest_a3b75ca061c5ceeff4b81f2b120b538e1}{Set\+Method}} (\mbox{\hyperlink{namespacesimple__http__server_adfe0e347afbcbc672724da60b0b1aedf}{Http\+Method}} \mbox{\hyperlink{classsimple__http__server_1_1HttpRequest_a82b40db7c51c8f11882594d89ba815ee}{method}})
+\item 
+void \mbox{\hyperlink{classsimple__http__server_1_1HttpRequest_a385b361cad3edd56a91216f153c5ed38}{Set\+Uri}} (const \mbox{\hyperlink{classsimple__http__server_1_1Uri}{Uri}} \&\mbox{\hyperlink{classsimple__http__server_1_1HttpRequest_aaeee73eb314a862842d7970b6233f641}{uri}})
+\item 
+\mbox{\hyperlink{classsimple__http__server_1_1Uri}{Uri}} \mbox{\hyperlink{classsimple__http__server_1_1HttpRequest_aaeee73eb314a862842d7970b6233f641}{uri}} () const
+\item 
+\mbox{\hyperlink{namespacesimple__http__server_a2086dc8aa10f2b778b736376aea1e85b}{Http\+Version}} \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_aa5d3b24cac0ffaaa51af606036be77e7}{version}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Защищенные члены}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_aadde16af96cbda97bf407b7a638ccf72}{Set\+Content\+Length}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Защищенные данные}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_abf173a1eeda0bcd26f887e93d055ae9d}{content\+\_\+}}
+\item 
+std\+::map$<$ std\+::string, std\+::string $>$ \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_acb9b69111057618ea34876e9ca5736e5}{headers\+\_\+}}
+\item 
+\mbox{\hyperlink{namespacesimple__http__server_a2086dc8aa10f2b778b736376aea1e85b}{Http\+Version}} \mbox{\hyperlink{classsimple__http__server_1_1HttpMessageInterface_a718b2c084fcd4adf28f1e51e38a2c5bb}{version\+\_\+}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacesimple__http__server_adfe0e347afbcbc672724da60b0b1aedf}{Http\+Method}} \mbox{\hyperlink{classsimple__http__server_1_1HttpRequest_a47aa136286e2bd71125785dd4a2d6d91}{method\+\_\+}}
+\item 
+\mbox{\hyperlink{classsimple__http__server_1_1Uri}{Uri}} \mbox{\hyperlink{classsimple__http__server_1_1HttpRequest_ac9e81041c330021bdbbf221d1d920f90}{uri\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+
+
+См. определение в файле http\+\_\+message.\+h строка 121
+
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpRequest_a36234a15fb5eb54f60960e192655a2c7}\label{classsimple__http__server_1_1HttpRequest_a36234a15fb5eb54f60960e192655a2c7}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!HttpRequest@{HttpRequest}}
+\index{HttpRequest@{HttpRequest}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{HttpRequest()}{HttpRequest()}}
+{\footnotesize\ttfamily simple\+\_\+http\+\_\+server\+::\+Http\+Request\+::\+Http\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 123
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpRequest_ae5cd9170776570901554231f2598dcab}\label{classsimple__http__server_1_1HttpRequest_ae5cd9170776570901554231f2598dcab}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!````~HttpRequest@{$\sim$HttpRequest}}
+\index{````~HttpRequest@{$\sim$HttpRequest}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{$\sim$HttpRequest()}{~HttpRequest()}}
+{\footnotesize\ttfamily simple\+\_\+http\+\_\+server\+::\+Http\+Request\+::$\sim$\+Http\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_ac8f8f7f9b3a0920a73c86bd65d9a17ff}\label{classsimple__http__server_1_1HttpMessageInterface_ac8f8f7f9b3a0920a73c86bd65d9a17ff}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!ClearContent@{ClearContent}}
+\index{ClearContent@{ClearContent}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{ClearContent()}{ClearContent()}}
+{\footnotesize\ttfamily void simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::\+Clear\+Content (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{content }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 94
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_a9a0737e0080962c2878f8d648d2d6733}\label{classsimple__http__server_1_1HttpMessageInterface_a9a0737e0080962c2878f8d648d2d6733}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!ClearHeader@{ClearHeader}}
+\index{ClearHeader@{ClearHeader}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{ClearHeader()}{ClearHeader()}}
+{\footnotesize\ttfamily void simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::\+Clear\+Header (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 89
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_ae7ed3cdd2737c8878474aa11cdc7e8da}\label{classsimple__http__server_1_1HttpMessageInterface_ae7ed3cdd2737c8878474aa11cdc7e8da}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!content@{content}}
+\index{content@{content}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{content()}{content()}}
+{\footnotesize\ttfamily std\+::string simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::content (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 105
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_ad5f2522670039a338bb76dfde0e51514}\label{classsimple__http__server_1_1HttpMessageInterface_ad5f2522670039a338bb76dfde0e51514}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!content\_length@{content\_length}}
+\index{content\_length@{content\_length}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{content\_length()}{content\_length()}}
+{\footnotesize\ttfamily size\+\_\+t simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::content\+\_\+length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 106
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_a0d455f4d7b1d7df7a062d7380bd7edc0}\label{classsimple__http__server_1_1HttpMessageInterface_a0d455f4d7b1d7df7a062d7380bd7edc0}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!header@{header}}
+\index{header@{header}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{header()}{header()}}
+{\footnotesize\ttfamily std\+::string simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::header (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{key }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 100
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_afdeaa2dec013f57be43182c91926881f}\label{classsimple__http__server_1_1HttpMessageInterface_afdeaa2dec013f57be43182c91926881f}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!headers@{headers}}
+\index{headers@{headers}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{headers()}{headers()}}
+{\footnotesize\ttfamily std\+::map$<$std\+::string, std\+::string$>$ simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::headers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 104
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpRequest_a82b40db7c51c8f11882594d89ba815ee}\label{classsimple__http__server_1_1HttpRequest_a82b40db7c51c8f11882594d89ba815ee}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!method@{method}}
+\index{method@{method}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{method()}{method()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespacesimple__http__server_adfe0e347afbcbc672724da60b0b1aedf}{Http\+Method}} simple\+\_\+http\+\_\+server\+::\+Http\+Request\+::method (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 129
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_a8f48a3b3b493f9ce5ffeb0c135345287}\label{classsimple__http__server_1_1HttpMessageInterface_a8f48a3b3b493f9ce5ffeb0c135345287}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!RemoveHeader@{RemoveHeader}}
+\index{RemoveHeader@{RemoveHeader}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{RemoveHeader()}{RemoveHeader()}}
+{\footnotesize\ttfamily void simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::\+Remove\+Header (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{key }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 88
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_a82772bba7d66f15cfdd8f909105e5e5d}\label{classsimple__http__server_1_1HttpMessageInterface_a82772bba7d66f15cfdd8f909105e5e5d}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!SetContent@{SetContent}}
+\index{SetContent@{SetContent}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{SetContent()}{SetContent()}}
+{\footnotesize\ttfamily void simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::\+Set\+Content (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{content }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 90
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_aadde16af96cbda97bf407b7a638ccf72}\label{classsimple__http__server_1_1HttpMessageInterface_aadde16af96cbda97bf407b7a638ccf72}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!SetContentLength@{SetContentLength}}
+\index{SetContentLength@{SetContentLength}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{SetContentLength()}{SetContentLength()}}
+{\footnotesize\ttfamily void simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::\+Set\+Content\+Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 113
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_adb150443a03735d2d0819bacb92cb606}\label{classsimple__http__server_1_1HttpMessageInterface_adb150443a03735d2d0819bacb92cb606}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!SetHeader@{SetHeader}}
+\index{SetHeader@{SetHeader}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{SetHeader()}{SetHeader()}}
+{\footnotesize\ttfamily void simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::\+Set\+Header (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{key,  }\item[{const std\+::string \&}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 85
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpRequest_a3b75ca061c5ceeff4b81f2b120b538e1}\label{classsimple__http__server_1_1HttpRequest_a3b75ca061c5ceeff4b81f2b120b538e1}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!SetMethod@{SetMethod}}
+\index{SetMethod@{SetMethod}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{SetMethod()}{SetMethod()}}
+{\footnotesize\ttfamily void simple\+\_\+http\+\_\+server\+::\+Http\+Request\+::\+Set\+Method (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacesimple__http__server_adfe0e347afbcbc672724da60b0b1aedf}{Http\+Method}}}]{method }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 126
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpRequest_a385b361cad3edd56a91216f153c5ed38}\label{classsimple__http__server_1_1HttpRequest_a385b361cad3edd56a91216f153c5ed38}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!SetUri@{SetUri}}
+\index{SetUri@{SetUri}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{SetUri()}{SetUri()}}
+{\footnotesize\ttfamily void simple\+\_\+http\+\_\+server\+::\+Http\+Request\+::\+Set\+Uri (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classsimple__http__server_1_1Uri}{Uri}} \&}]{uri }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 127
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpRequest_aaeee73eb314a862842d7970b6233f641}\label{classsimple__http__server_1_1HttpRequest_aaeee73eb314a862842d7970b6233f641}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!uri@{uri}}
+\index{uri@{uri}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{uri()}{uri()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classsimple__http__server_1_1Uri}{Uri}} simple\+\_\+http\+\_\+server\+::\+Http\+Request\+::uri (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 130
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_aa5d3b24cac0ffaaa51af606036be77e7}\label{classsimple__http__server_1_1HttpMessageInterface_aa5d3b24cac0ffaaa51af606036be77e7}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!version@{version}}
+\index{version@{version}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{version()}{version()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespacesimple__http__server_a2086dc8aa10f2b778b736376aea1e85b}{Http\+Version}} simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::version (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 99
+
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_abf173a1eeda0bcd26f887e93d055ae9d}\label{classsimple__http__server_1_1HttpMessageInterface_abf173a1eeda0bcd26f887e93d055ae9d}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!content\_@{content\_}}
+\index{content\_@{content\_}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{content\_}{content\_}}
+{\footnotesize\ttfamily std\+::string simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::content\+\_\+\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 111
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_acb9b69111057618ea34876e9ca5736e5}\label{classsimple__http__server_1_1HttpMessageInterface_acb9b69111057618ea34876e9ca5736e5}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!headers\_@{headers\_}}
+\index{headers\_@{headers\_}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{headers\_}{headers\_}}
+{\footnotesize\ttfamily std\+::map$<$std\+::string, std\+::string$>$ simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::headers\+\_\+\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 110
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpRequest_a47aa136286e2bd71125785dd4a2d6d91}\label{classsimple__http__server_1_1HttpRequest_a47aa136286e2bd71125785dd4a2d6d91}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!method\_@{method\_}}
+\index{method\_@{method\_}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{method\_}{method\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespacesimple__http__server_adfe0e347afbcbc672724da60b0b1aedf}{Http\+Method}} simple\+\_\+http\+\_\+server\+::\+Http\+Request\+::method\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 136
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpRequest_ac9e81041c330021bdbbf221d1d920f90}\label{classsimple__http__server_1_1HttpRequest_ac9e81041c330021bdbbf221d1d920f90}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!uri\_@{uri\_}}
+\index{uri\_@{uri\_}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{uri\_}{uri\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classsimple__http__server_1_1Uri}{Uri}} simple\+\_\+http\+\_\+server\+::\+Http\+Request\+::uri\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 137
+
+\mbox{\Hypertarget{classsimple__http__server_1_1HttpMessageInterface_a718b2c084fcd4adf28f1e51e38a2c5bb}\label{classsimple__http__server_1_1HttpMessageInterface_a718b2c084fcd4adf28f1e51e38a2c5bb}} 
+\index{simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}!version\_@{version\_}}
+\index{version\_@{version\_}!simple\_http\_server::HttpRequest@{simple\_http\_server::HttpRequest}}
+\doxysubsubsection{\texorpdfstring{version\_}{version\_}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespacesimple__http__server_a2086dc8aa10f2b778b736376aea1e85b}{Http\+Version}} simple\+\_\+http\+\_\+server\+::\+Http\+Message\+Interface\+::version\+\_\+\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [inherited]}}
+
+
+
+См. определение в файле http\+\_\+message.\+h строка 109
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{http__message_8h}{http\+\_\+message.\+h}}\end{DoxyCompactItemize}
