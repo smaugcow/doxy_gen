@@ -1,4 +1,5 @@
 from input.doxy_gen import doxy_gen
+from output.preproc_raw_doxygen import pretty_tex
 
 import config
 
@@ -13,6 +14,13 @@ def main():
                    config.SKIP_DIR,
                    config.FILE_IMAGES)
     dox.run()
+
+    print("\n")
+    
+    tex = pretty_tex(config.DOXYGEN_OUTPUT_DIR, 
+                     config.PRETTY_DOXYGEN_OUTPUT_DIR,
+                     config.FILES_TO_KEEP)
+    tex.run()
 
     print("\n")
 
